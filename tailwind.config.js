@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        patternMobile: "url('/src/images/pattern-background-mobile.svg')",
-        patternDesktop: "url('/src/images/pattern-background-desktop.svg')",
+        patternMobile: "url('../src/images/pattern-background-mobile.svg')",
+        patternDesktop: "url('../src/images/pattern-background-desktop.svg')",
       },
 
       backgroundSize: {
