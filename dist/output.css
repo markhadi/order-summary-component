@@ -606,7 +606,7 @@ html {
 }
 
 .bg-patternMobile {
-  background-image: url('/src/images/pattern-background-mobile.svg');
+  background-image: url('../src/images/pattern-background-mobile.svg');
 }
 
 .bg-100 {
@@ -733,7 +733,7 @@ html {
   }
 
   .sm\:bg-patternDesktop {
-    background-image: url('/src/images/pattern-background-desktop.svg');
+    background-image: url('../src/images/pattern-background-desktop.svg');
   }
 
   .sm\:px-12 {
