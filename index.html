@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./dist/output.css" />
+
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body
+    class="grid place-content-center min-h-screen bg-paleBlue bg-patternMobile bg-100 bg-no-repeat sm:bg-patternDesktop p-6"
+  >
+    <main
+      class="max-w-[450px] rounded-[20px] bg-white overflow-hidden shadow-lg"
+    >
+      <img src="./src/images/illustration-hero.svg" alt="illustration hero" />
+      <div class="px-6 py-8 sm:px-12 sm:py-11">
+        <h1 class="font-bold text-[22px] text-darkBlue text-center mb-4">
+          Order Summary
+        </h1>
+        <p
+          class="font-medium text-base text-desaturatedBlue text-center mb-5 sm:mb-8"
+        >
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div
+          class="flex items-center justify-between bg-veryPaleBlue p-4 rounded-[10px] mb-6"
+        >
+          <div class="flex items-center gap-5">
+            <img src="./src/images/icon-music.svg" alt="icon music" />
+            <div class="flex flex-col">
+              <span class="font-bold text-sm text-darkBlue">Annual Plan</span>
+              <span class="font-bold text-sm text-desaturatedBlue"
+                >$59.99/year</span
+              >
+            </div>
+          </div>
+          <a
+            class="font-bold text-sm text-brightBlue underline hover:text-brightBlue-70 hover:no-underline transition-all duration-300"
+            href=""
+            >Change</a
+          >
+        </div>
+        <button
+          class="w-full bg-brightBlue font-bold text-white py-3 rounded-[10px] shadow-lg mb-6 sm:mb-7 hover:bg-brightBlue-70 transition-all duration-300"
+        >
+          Proceed to Payment
+        </button>
+        <a
+          class="font-bold text-base text-desaturatedBlue text-center block hover:text-darkBlue transition-all duration-300"
+          href=""
+          >Cancel Order</a
+        >
+      </div>
+    </main>
+
+    <!-- <div>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>
