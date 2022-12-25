@@ -10,5 +10,5 @@ Users should be able to:
 
 # Links
 
-- Solution URL: https://github.com/markhadi/order-summary-component
+- Solution URL: https://github.com/markhadi/order-summary-component/tree/basic-css
 - Live Site URL: https://markhadi.github.io/order-summary-component/
